@@ -1,0 +1,16 @@
+package com.owenguo.bridge;
+
+public class Client {
+    public static void main(String[] args) {
+        // 获取折叠式手机 （样式+品牌）
+        FoldedPhone foldedPhone = new FoldedPhone(new XiaoMi());
+        foldedPhone.open();
+        foldedPhone.call();
+        foldedPhone.close();
+
+//        FoldedPhone foldedPhone1 = new FoldedPhone(new Vivo());
+//        foldedPhone1.open();
+//        foldedPhone1.call();
+//        foldedPhone1.close();
+    }
+}
